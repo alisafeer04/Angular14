@@ -72,7 +72,7 @@ getAllDetails(note:Note){
 }
   //update notes
   updateNote(note: Note) {
-    const { value } = this.editForm
+    const { value } = this.editForm 
     console.log(value);
 
     (this.noteObj.id = note.id),
